@@ -1,0 +1,207 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'sans-serif', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+/* HEADER */
+
+header {
+    padding: 10px;
+    font-family: 'sans-serif', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    background-color: aqua;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* NAVIGATOR PANE */
+
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'sans-serif','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* HERO IMAGE */
+
+.hero {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/********** HERO IMAGE USE THIS INSTEAD OF ALT ATTRIBUTE **********/
+.hero p {
+    position: relative;
+    z-index: -1;
+    /* float: left; */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 180px;
+}
+
+/* .flex-container div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid;
+} */
+
+.item {
+    width: 100%;
+    border: solid;
+    height: 150px;
+    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.item-1 {
+    width: 1510px;
+    height: 300px;
+    margin-left: 20px;
+    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
+}
+
+.item-2 {
+    width: 720px;
+    height: 300px;
+    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
+    margin-left: 20px;
+}
+.item-3 {
+    width: 720px;
+    height: 300px;
+    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
+}
+.item-4 {
+    width: 50%;
+    height: 300px;
+    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
+}
+.item-5 {
+    width: 50%;
+    height: 300px;
+    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
+}
+
+
+
+
+
+main {
+    margin-left: 100px;
+    margin-right: 150px;
+}
+
+h2 {
+    font-size: 48px;
+    /* float: left; */
+    padding: 0px 10px 0px 0px;
+    text-align: right;
+   /* border-right: solid; */
+    /* border-width: 10px; */
+    /* border-color: navy; */
+    border-style: solid;
+
+}
+
+#work {
+    font-size: 48px;
+    /* float: left; */
+    padding: 0px 10px 0px 0px;
+    text-align: right;
+   /* border-right: solid; */
+    /* border-width: 10px; */
+    /* border-color: navy; */
+    /* border-style: solid; */
+}
+
+#contact {
+    font-size: 48px;
+    /* float: left; */
+    padding: 0px 10px 0px 0px;
+    text-align: right;
+   /* border-right: solid; */
+    /* border-width: 10px; */
+    /* border-color: navy; */
+    /* border-style: solid; */
+}
+
+#resume {
+    font-size: 48px;
+    /* float: left; */
+    padding: 0px 10px 0px 0px;
+    text-align: right;
+   /* border-right: solid; */
+    /* border-width: 10px; */
+    /* border-color: navy; */
+    /* border-style: solid; */
+}
+
+main section {
+    /* border-style: solid; */
+    padding: 0px 0px 20px 0px;
+
+}
+
+main p {
+    overflow: auto;
+    padding: 0px 100px 0px 50px;
+    text-align: justify;
+    border-left: solid;
+    border-style: solid;
+    margin-left: 200px;
+
+}
+
+  
+main div {
+    /* overflow: auto; */
+    /* padding: 0px 100px 0px 50px; */
+
+}
+
+.left {
+    float: left;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
