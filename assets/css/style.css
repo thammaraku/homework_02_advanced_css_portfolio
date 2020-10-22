@@ -1,26 +1,25 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-body {
-    background-color: white;
-    font-family: 'sans-serif', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
 /* HEADER */
+main {
+    margin-right: 100px;
+    font-size: 16px;
+    font-family: 'Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
+}
 header {
     padding: 10px;
-    font-family: 'sans-serif', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
-    background-color: aqua;
+    background-color: midnightblue;
+    /* position: fixed; */
+    /* width:  100%; */
+    /* overflow: hidden; */
+    /* top: 0; */
 }
 
 header h1 {
     display: inline-block;
-    font-size: 48px;
+    font-size: 3rem;
+    padding: 10px 0px 0px 40px;
 }
 
 /* NAVIGATOR PANE */
@@ -29,31 +28,27 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'sans-serif','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-family: 'Lucida console','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+
 }
 
-nav ul {
+ul li {
+    float: left;
+    margin: 20px;
     list-style-type: none;
+    /* border: solid; */
 }
 
-nav ul li {
-    display: inline-block;
-    margin-left: 30px;
+a {
+    color: white;
 }
-
-nav a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* HERO IMAGE */
 
 .hero {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
+    background-image: url("/assets/images/deep_blue_sky.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -65,143 +60,185 @@ nav a {
     /* float: left; */
 }
 
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin-left: 180px;
-}
-
-/* .flex-container div {
-    background-color: #f1f1f1;
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    border: solid;
-} */
-
-.item {
-    width: 100%;
-    border: solid;
-    height: 150px;
-    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
-
-.item-1 {
-    width: 1510px;
-    height: 300px;
-    margin-left: 20px;
-    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
-}
-
-.item-2 {
-    width: 720px;
-    height: 300px;
-    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
-    margin-left: 20px;
-}
-.item-3 {
-    width: 720px;
-    height: 300px;
-    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
-}
-.item-4 {
-    width: 50%;
-    height: 300px;
-    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
-}
-.item-5 {
-    width: 50%;
-    height: 300px;
-    background-image: url("../images/pngtree-blue-technology-particle-banner-image_17143.jpg");
-}
-
-
-
-
-
-main {
-    margin-left: 100px;
-    margin-right: 150px;
-}
-
-h2 {
-    font-size: 48px;
-    /* float: left; */
-    padding: 0px 10px 0px 0px;
-    text-align: right;
-   /* border-right: solid; */
-    /* border-width: 10px; */
-    /* border-color: navy; */
-    border-style: solid;
-
-}
-
-#work {
-    font-size: 48px;
-    /* float: left; */
-    padding: 0px 10px 0px 0px;
-    text-align: right;
-   /* border-right: solid; */
-    /* border-width: 10px; */
-    /* border-color: navy; */
-    /* border-style: solid; */
-}
-
-#contact {
-    font-size: 48px;
-    /* float: left; */
-    padding: 0px 10px 0px 0px;
-    text-align: right;
-   /* border-right: solid; */
-    /* border-width: 10px; */
-    /* border-color: navy; */
-    /* border-style: solid; */
-}
-
-#resume {
-    font-size: 48px;
-    /* float: left; */
-    padding: 0px 10px 0px 0px;
-    text-align: right;
-   /* border-right: solid; */
-    /* border-width: 10px; */
-    /* border-color: navy; */
-    /* border-style: solid; */
-}
-
-main section {
-    /* border-style: solid; */
-    padding: 0px 0px 20px 0px;
-
-}
-
-main p {
-    overflow: auto;
-    padding: 0px 100px 0px 50px;
-    text-align: justify;
-    border-left: solid;
-    border-style: solid;
-    margin-left: 200px;
-
-}
-
-  
-main div {
-    /* overflow: auto; */
-    /* padding: 0px 100px 0px 50px; */
-
-}
-
-.left {
-    float: left;
-}
-
 .clearfix::after {
     display: table;
     content: "";
     clear: both;
+}
+
+p {
+    text-align: justify;
+    padding: 20px px 20px 0px;
+    font-size: 1.5rem;
+    /* margin: 5px; */
+    /* background-color: aqua; */
+}
+
+/* div {
+    border: solid;
+    border-width: 1px;
+
+} */
+
+
+.sectionTitle {
+    float: left;
+    font-size: 3rem;
+    width: 15%;
+    margin-right: 5px;
+    /* background-color: grey; */
+    text-align: right;
+    /* border-right: solid; */
+    /* padding-right: 50px; */
+}
+
+.sectionContent {
+	float: right;
+    width: 75%;
+    border-left: solid 10px;
+    padding-left: 100px;
+
+}
+
+.flex-container1 {
+    display: flex;
+	float: right;
+    width: 75%;
+    height: 300px;
+    /* background-color: red; */
+    border-left: solid 10px;
+    padding-left: 100px;
+
+}
+
+.item:hover {
+    opacity: 0.7;
+}
+
+.item-1 {
+    width: 100%;
+    background-color: greenyellow;
+    margin: 5px;
+
+}
+
+.flex-container2 {
+    display: flex;
+	float: right;
+    width: 75%;
+    height: 200px;
+    /* background-color: blue; */
+    border-left: solid 10px;
+    padding-left: 100px;
+
+
+}
+
+.item-2 {
+    width: 50%;
+    border: solid;
+    background-color: greenyellow;
+    margin: 5px;
+}
+
+.item-3 {
+    width: 50%;
+    border: solid;
+    background-color: greenyellow;
+    margin: 5px;
+
+}
+
+.flex-container3 {
+    display: flex;
+	float: right;
+    width: 75%;
+    height: 150px;
+    /* background-color: green; */
+    border-left: solid 10px;
+    padding-left: 100px;
+}
+
+.item-4 {
+    width: 50%;
+    border: solid;
+    margin: 5px;
+
+}
+
+.item-5 {
+    width: 50%;
+    border: solid;
+    margin: 5px;
+}
+
+
+.flex-container4 {
+    display: flex;
+	float: right;
+    width: 75%;
+    height: 100px;
+    /* background-color: blue; */
+    border-left: solid 10px;
+    padding-left: 100px;
+
+}
+
+.item-6 {
+    width: 100%;
+    border: solid;
+    margin: 5px;
+}
+
+.flex-container5 {
+    display: flex;
+	float: right;
+    width: 75%;
+    height: 140px;
+    /* background-color: blue; */
+    border-left: solid 10px;
+    padding-left: 100px;
+
+}
+
+@media all and (max-width: 601px) {
+    .sectionTitle, .sectionContent {
+		float: none;
+        width: 100%;
+        text-align: center;
+    }
+ 
+}
+
+@media all and (max-width: 601px) {
+    .sectionTitle, .sectionContent {
+		float: none;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.social-icons li a :hover {
+    opacity: 0.7;
+}
+
+.social-icons {
+    text-align: center;
+} 
+
+.social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    /* -webkit-user-select:none;
+    -moz-user-select:none; */
+}
+
+.social-icons li a {
+    /* border-bottom: none; */
+}
+
+.social-icons li img {
+    /* width:70px; */
+    height:60px;
+    margin-right: 70px;
 }
