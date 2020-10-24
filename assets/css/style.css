@@ -1,15 +1,29 @@
 /* HEADER */
+* {
+    font-family: 'Courier New','Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
 main {
-    margin-right: 100px;
+    /* margin-right: 100px; */
     font-size: 16px;
-    font-family: 'Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Courier New','Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 header {
-    padding: 10px;
-    font-family: 'Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Courier New','Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
-    background-color: midnightblue;
+    /* background-color: midnightblue; */
+    background-image: url(/assets/images/300-sl-alternative-energy-blue-sky-clouds-371900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    text-align: center;
     /* position: fixed; */
     /* width:  100%; */
     /* overflow: hidden; */
@@ -17,20 +31,38 @@ header {
 }
 
 header h1 {
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 3rem;
-    padding: 10px 0px 0px 40px;
+    /* padding: 0px 140px 0px 0px; */
+
 }
 
+header img {
+    /* height:100px; */
+    width: 120px;
+    margin-top: 20px;
+    border-radius: 50%;
+    /* padding: px 0px 0px 0px; */
+
+
+}
 /* NAVIGATOR PANE */
 
 nav {
-    padding-top: 15px;
-    margin-right: 20px;
-    float: right;
+    /* padding-top: 15px; */
+    /* margin-right: 20px; */
+    /* float: right; */
     font-family: 'Lucida console','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    /* border: solid; */
+}
 
+ul {
+    /* border: solid; */
+    display: inline-block;
 }
 
 ul li {
@@ -38,20 +70,43 @@ ul li {
     margin: 20px;
     list-style-type: none;
     /* border: solid; */
+    /* position: relative; */
 }
 
 a {
-    color: white;
+    color: rgb(0, 49, 139);
+    font-style: normal;
+    text-decoration: none;
 }
 
-.hero {
+/* unvisited link */
+/* a:link {
+    color: blue;
+  }
+   */
+  /* visited link */
+  /* a:visited {
+    color: green;
+  } */
+  
+  /* mouse over link */
+  a:hover {
+    color: white;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+/* .hero {
     height: 300px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("/assets/images/deep_blue_sky.jpg");
     background-size: cover;
     background-position: center;
-}
+} */
 
 /********** HERO IMAGE USE THIS INSTEAD OF ALT ATTRIBUTE **********/
 .hero p {
@@ -96,7 +151,8 @@ p {
 	float: right;
     width: 75%;
     border-left: solid 10px;
-    padding-left: 100px;
+    padding-left: 50px;
+    margin-right: 50px;
 
 }
 
@@ -107,7 +163,8 @@ p {
     height: 300px;
     /* background-color: red; */
     border-left: solid 10px;
-    padding-left: 100px;
+    padding-left: 50px;
+    margin-right: 50px;
 
 }
 
@@ -117,9 +174,13 @@ p {
 
 .item-1 {
     width: 100%;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     margin: 5px;
-
+    background-image: url(/assets/images/html-illustration.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    /* padding-bottom: 500px; */
 }
 
 .flex-container2 {
@@ -129,8 +190,8 @@ p {
     height: 200px;
     /* background-color: blue; */
     border-left: solid 10px;
-    padding-left: 100px;
-
+    padding-left: 50px;
+    margin-right: 50px;
 
 }
 
@@ -139,6 +200,9 @@ p {
     border: solid;
     background-color: greenyellow;
     margin: 5px;
+    background-image: url(/assets/images/css-illustration.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .item-3 {
@@ -146,6 +210,9 @@ p {
     border: solid;
     background-color: greenyellow;
     margin: 5px;
+    background-image: url(/assets/images/javascript-illustration.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -153,16 +220,20 @@ p {
     display: flex;
 	float: right;
     width: 75%;
-    height: 150px;
+    height: 200px;
     /* background-color: green; */
     border-left: solid 10px;
-    padding-left: 100px;
+    padding-left: 50px;
+    margin-right: 50px;
 }
 
 .item-4 {
     width: 50%;
     border: solid;
     margin: 5px;
+    background-image: url(/assets/images/jquery-illustration.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 
@@ -170,6 +241,9 @@ p {
     width: 50%;
     border: solid;
     margin: 5px;
+    background-image: url(/assets/images/sql-illustration.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -177,10 +251,11 @@ p {
     display: flex;
 	float: right;
     width: 75%;
-    height: 100px;
+    height: 200px;
     /* background-color: blue; */
     border-left: solid 10px;
-    padding-left: 100px;
+    padding-left: 50px;
+    margin-right: 50px;
 
 }
 
@@ -194,29 +269,67 @@ p {
     display: flex;
 	float: right;
     width: 75%;
-    height: 140px;
+    height: 200px;
     /* background-color: blue; */
     border-left: solid 10px;
-    padding-left: 100px;
+    padding-left: 50px;
+    margin-right: 50px;
 
 }
 
-@media all and (max-width: 601px) {
-    .sectionTitle, .sectionContent {
+#resume img {
+    width: 8%;
+    height: 8%;
+    /* float: left; */
+    /* border: solid; */
+}
+
+
+#resume a :hover {
+    opacity: 0.7;
+}
+
+.flex-container6 {
+    /* display: flex; */
+	float: right;
+    width: 75%;
+    height: 200px;
+    /* background-color: blue; */
+    border-left: solid 10px;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+
+/* @media all and (max-width: 740px) {
+    .sectionTitle, .sectionContent .header {
 		float: none;
         width: 100%;
         text-align: center;
+        padding: 0px;
     }
  
-}
-
-@media all and (max-width: 601px) {
-    .sectionTitle, .sectionContent {
-		float: none;
-        width: 100%;
-        text-align: center;
+    .nav {
+        float: left;
     }
-}
+} */
+
+/* LAPTOP
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px)  
+*/
+
+/* IPHONE
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px)
+ */
+/* IPAD
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+*/
+
 
 .social-icons li a :hover {
     opacity: 0.7;
@@ -240,5 +353,51 @@ p {
 .social-icons li img {
     /* width:70px; */
     height:60px;
-    margin-right: 70px;
+    margin-right: 50px;
+}
+
+@media screen and (max-device-width : 1024px) {
+
+
+    .sectionTitle {
+		float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        font-size: 70%;
+        background-color: red;
+    }
+
+    .social-icons li a img {
+        height:30px;
+        /* margin-right: 0px; */
+        /* clear: both; */
+    }
+
+    .flex-container1, .flex-container2, .flex-container3, .flex-container4, .flex-container5, .flex-container6 {
+        border: none;
+    }
+
+    .sectionContent {
+        border: none;
+        text-align: justify;
+        padding: 10px;
+        margin: none;
+
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+    /* 
+    #resume img {
+        width: 4%;
+        height: 4%;
+        /* float: left; */
+        /* border: solid; */
+    } */
+
+
 }
