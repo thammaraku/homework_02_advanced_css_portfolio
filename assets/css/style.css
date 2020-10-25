@@ -244,41 +244,6 @@ p {
     transform: scale(1.2);
 }
 
-/* ################ MEDIA QUERY FOR DESKTOP ################ */
-
-@media screen and (max-device-width : 1024px) {
-
-    .sectionTitle {
-		float: none;
-        width: 100%;
-        text-align: center;
-    }
-
-    nav ul li a {
-        font-size: 70%;
-    }
-
-    .social-icons li a img {
-        height:30px;
-    }
-
-    .flex-container1, .flex-container2, .flex-container3, .flex-container4, .flex-container5, .flex-container6 {
-        border: none;
-    }
-
-    .sectionContent {
-        border: none;
-        text-align: justify;
-        padding: 10px;
-        margin: none;
-    }
-
-    header h1 {
-        font-size: 1.5rem;
-    }
-    
-}
-
 /* ################ MEDIA QUERY FOR PHONE ################ */
 
 @media screen and (max-device-width : 400px) {
