@@ -26,7 +26,7 @@ https://thammaraku.github.io/
     - links to the developer's name, projects and contact information
 
 2. All the links are working and navigating to the coressponding sections.
-3. Resonive layout changes following various screen sizes.
+3. Responsive layout changes following various screen sizes.
 
 
 ## What we learned
