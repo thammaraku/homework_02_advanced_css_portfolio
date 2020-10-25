@@ -117,7 +117,12 @@ p {
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
+}
 
+.flex-container1 a {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 .flex-container2 {
@@ -282,11 +287,25 @@ p {
 		float: none;
         width: 100%;
         text-align: center;
+        margin-right: 0px;
+    }
+    .sectionContent {
+        border: none;
+        text-align: justify;
+        /* padding: 10px; */
+        margin: none;
     }
 
-    nav {
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    nav ul {
+        padding-inline-start: 0px;
+    }
+    nav ul li {
         float: none;
-        text-align: center;
+        margin: 2px;
     }
     nav ul li a {
         font-size: 70%;
@@ -296,20 +315,17 @@ p {
         height:30px;
     }
 
+    #contact h2 {
+        margin: 0px;
+    }
     .flex-container1, .flex-container2, .flex-container3, .flex-container4, .flex-container5, .flex-container6 {
         border: none;
         height: 150px;
     }
 
-    .sectionContent {
-        border: none;
-        text-align: justify;
-        padding: 10px;
-        margin: none;
+    .flex-container5 {
+        height: 350px;
     }
 
-    header h1 {
-        font-size: 1.5rem;
-    }
     
 }
