@@ -1,118 +1,5 @@
-/* HEADER */
 * {
     font-family: 'Courier New','Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-body {
-    margin: 0px;
-}
-
-main {
-    /* margin-right: 100px; */
-    font-size: 16px;
-    font-family: 'Courier New','Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-header {
-    padding: 10px 10px 10px 10px;
-    font-family: 'Courier New','Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff;
-    /* background-color: midnightblue; */
-    background-image: url(/assets/images/300-sl-alternative-energy-blue-sky-clouds-371900.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-    text-align: center;
-    /* position: fixed; */
-    /* width:  100%; */
-    /* overflow: hidden; */
-    /* top: 0; */
-}
-
-header h1 {
-    /* display: inline-block; */
-    font-size: 3rem;
-    /* padding: 0px 140px 0px 0px; */
-
-}
-
-header img {
-    /* height:100px; */
-    width: 120px;
-    margin-top: 20px;
-    border-radius: 50%;
-    /* padding: px 0px 0px 0px; */
-
-
-}
-/* NAVIGATOR PANE */
-
-nav {
-    /* padding-top: 15px; */
-    /* margin-right: 20px; */
-    /* float: right; */
-    font-family: 'Lucida console','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 2rem;
-    font-weight: bold;
-    text-align: center;
-    width: 100%;
-    /* border: solid; */
-}
-
-ul {
-    /* border: solid; */
-    display: inline-block;
-}
-
-ul li {
-    float: left;
-    margin: 20px;
-    list-style-type: none;
-    /* border: solid; */
-    /* position: relative; */
-}
-
-a {
-    color: rgb(0, 49, 139);
-    font-style: normal;
-    text-decoration: none;
-}
-
-/* unvisited link */
-/* a:link {
-    color: blue;
-  }
-   */
-  /* visited link */
-  /* a:visited {
-    color: green;
-  } */
-  
-  /* mouse over link */
-  a:hover {
-    color: white;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
-
-/* .hero {
-    height: 300px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("/assets/images/deep_blue_sky.jpg");
-    background-size: cover;
-    background-position: center;
-} */
-
-/********** HERO IMAGE USE THIS INSTEAD OF ALT ATTRIBUTE **********/
-.hero p {
-    position: relative;
-    z-index: -1;
-    /* float: left; */
 }
 
 .clearfix::after {
@@ -121,30 +8,82 @@ a {
     clear: both;
 }
 
+body {
+    margin: 0px;
+}
+
+main {
+    font-size: 16px;
+    font-family: 'Courier New','Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* ################ HEADER ################ */
+
+header {
+    padding: 10px 10px 10px 10px;
+    font-family: 'Courier New','Lucida console', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+    background-image: url(/assets/images/300-sl-alternative-energy-blue-sky-clouds-371900.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header img {
+    width: 120px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+/* ################ NAVIGATION PANE ################ */
+
+nav {
+    font-family: 'Lucida console','Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+
+ul {
+    display: inline-block;
+}
+
+ul li {
+    float: left;
+    margin: 20px;
+    list-style-type: none;
+}
+
+a {
+    color: rgb(0, 49, 139);
+    font-style: normal;
+    text-decoration: none;
+}
+  a:hover {
+    color: white;
+  }
+
 p {
     text-align: justify;
     padding: 20px px 20px 0px;
-    font-size: 1.5rem;
-    /* margin: 5px; */
-    /* background-color: aqua; */
+    font-size: 1.0rem;
+    border-left: solid 10px;
 }
-
-/* div {
-    border: solid;
-    border-width: 1px;
-
-} */
-
 
 .sectionTitle {
     float: left;
     font-size: 3rem;
     width: 15%;
     margin-right: 5px;
-    /* background-color: grey; */
     text-align: right;
-    /* border-right: solid; */
-    /* padding-right: 50px; */
+
 }
 
 .sectionContent {
@@ -152,12 +91,13 @@ p {
     width: 75%;
     padding-left: 50px;
     margin-right: 50px;
-
 }
 
-p {
-    border-left: solid 10px;
 
+/* ################ PROJECTS ################ */
+
+.item:hover {
+    transform: scale(1.2);
 }
 
 .flex-container1 {
@@ -165,26 +105,19 @@ p {
 	float: right;
     width: 75%;
     height: 300px;
-    /* background-color: red; */
     border-left: solid 10px;
     padding-left: 50px;
     margin-right: 50px;
-
-}
-
-.item:hover {
-    opacity: 0.7;
 }
 
 .item-1 {
     width: 100%;
-    /* background-color: greenyellow; */
     margin: 5px;
     background-image: url(/assets/images/html-illustration.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    /* padding-bottom: 500px; */
+
 }
 
 .flex-container2 {
@@ -192,31 +125,9 @@ p {
 	float: right;
     width: 75%;
     height: 300px;
-    /* background-color: blue; */
     border-left: solid 10px;
     padding-left: 50px;
     margin-right: 50px;
-
-}
-
-.item-2 {
-    width: 50%;
-    border: solid;
-    background-color: greenyellow;
-    margin: 5px;
-    background-image: url(/assets/images/css-illustration.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.item-3 {
-    width: 50%;
-    border: solid;
-    background-color: greenyellow;
-    margin: 5px;
-    background-image: url(/assets/images/javascript-illustration.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 
 }
 
@@ -225,7 +136,35 @@ p {
 	float: right;
     width: 75%;
     height: 300px;
-    /* background-color: green; */
+    border-left: solid 10px;
+    padding-left: 50px;
+    margin-right: 50px;
+
+}
+
+.item-2 {
+    width: 50%;
+    margin: 5px;
+    background-image: url(/assets/images/css-illustration.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.item-3 {
+    width: 50%;
+    margin: 5px;
+    background-image: url(/assets/images/javascript-illustration.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.flex-container4 {
+    display: flex;
+	float: right;
+    width: 75%;
+    height: 200px;
     border-left: solid 10px;
     padding-left: 50px;
     margin-right: 50px;
@@ -233,110 +172,36 @@ p {
 
 .item-4 {
     width: 50%;
-    border: solid;
     margin: 5px;
     background-image: url(/assets/images/jquery-illustration.png);
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size: contain;
+    background-position: center;
 }
 
 .item-5 {
     width: 50%;
-    border: solid;
     margin: 5px;
     background-image: url(/assets/images/sql-illustration.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+    background-position: center;
 }
 
-
-.flex-container4 {
-    display: flex;
-	float: right;
-    width: 75%;
-    height: 200px;
-    /* background-color: blue; */
-    border-left: solid 10px;
-    padding-left: 50px;
-    margin-right: 50px;
-
-}
-
-.item-6 {
-    width: 100%;
-    border: solid;
-    margin: 5px;
-}
+/* ################ CONTACT ################ */
 
 .flex-container5 {
     display: flex;
 	float: right;
     width: 75%;
     height: 200px;
-    /* background-color: blue; */
-    border-left: solid 10px;
-    padding-left: 50px;
-    margin-right: 50px;
-
-}
-
-#resume img {
-    width: 8%;
-    height: 8%;
-    /* float: left; */
-    /* border: solid; */
-}
-
-
-#resume a :hover {
-    opacity: 0.7;
-}
-
-.flex-container6 {
-    /* display: flex; */
-	float: right;
-    width: 75%;
-    height: 200px;
-    /* background-color: blue; */
     border-left: solid 10px;
     padding-left: 50px;
     margin-right: 50px;
 }
-
-/* @media all and (max-width: 740px) {
-    .sectionTitle, .sectionContent .header {
-		float: none;
-        width: 100%;
-        text-align: center;
-        padding: 0px;
-    }
- 
-    .nav {
-        float: left;
-    }
-} */
-
-/* LAPTOP
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px)  
-*/
-
-/* IPHONE
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px)
- */
-/* IPAD
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-*/
-
-
 .social-icons li a :hover {
     opacity: 0.7;
+    transform: scale(1.2);
 }
 
 .social-icons {
@@ -344,24 +209,39 @@ and (max-device-width : 1024px)
 } 
 
 .social-icons li {
-    display:inline-block;
+    /* display:inline-block; */
     list-style-type:none;
-    /* -webkit-user-select:none;
-    -moz-user-select:none; */
-}
-
-.social-icons li a {
-    /* border-bottom: none; */
 }
 
 .social-icons li img {
-    /* width:70px; */
     height:60px;
     margin-right: 50px;
 }
 
-@media screen and (max-device-width : 1024px) {
+/* ################ RESUME SECTION ################ */
 
+.flex-container6 {
+	float: right;
+    width: 75%;
+    height: 200px;
+    border-left: solid 10px;
+    padding-left: 50px;
+    margin-right: 50px;
+}
+
+#resume img {
+    width: 8%;
+    height: 8%;
+}
+
+#resume a :hover {
+    opacity: 0.7;
+    transform: scale(1.2);
+}
+
+/* ################ MEDIA QUERY FOR DESKTOP ################ */
+
+@media screen and (max-device-width : 1024px) {
 
     .sectionTitle {
 		float: none;
@@ -371,13 +251,10 @@ and (max-device-width : 1024px)
 
     nav ul li a {
         font-size: 70%;
-        background-color: red;
     }
 
     .social-icons li a img {
         height:30px;
-        /* margin-right: 0px; */
-        /* clear: both; */
     }
 
     .flex-container1, .flex-container2, .flex-container3, .flex-container4, .flex-container5, .flex-container6 {
@@ -389,19 +266,50 @@ and (max-device-width : 1024px)
         text-align: justify;
         padding: 10px;
         margin: none;
-
     }
 
     header h1 {
         font-size: 1.5rem;
     }
-    /* 
-    #resume img {
-        width: 4%;
-        height: 4%;
-        /* float: left; */
-        /* border: solid; */
-    } */
+    
+}
 
+/* ################ MEDIA QUERY FOR PHONE ################ */
 
+@media screen and (max-device-width : 400px) {
+
+    .sectionTitle {
+		float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+    nav ul li a {
+        font-size: 70%;
+    }
+
+    .social-icons li a img {
+        height:30px;
+    }
+
+    .flex-container1, .flex-container2, .flex-container3, .flex-container4, .flex-container5, .flex-container6 {
+        border: none;
+        height: 150px;
+    }
+
+    .sectionContent {
+        border: none;
+        text-align: justify;
+        padding: 10px;
+        margin: none;
+    }
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+    
 }
